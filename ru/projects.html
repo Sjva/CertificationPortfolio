@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Для мобиьной версий Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Подключение к поисковой системе Google and Яndex -->
+    <meta name="author" content="Левко Вячеслав">
+    <meta name="keywords" content="Портфолио, HTML, CSS, Верстальщик, Front-end developer,Levko Viacheslav, Front-end, Начинающий, HTML CSS Bootstrap сайт, Портфолио верстальщика, Одесса, Левко Вячеслав">
+    <meta name="description" content="Левко Вячеслав, Junior Front-end developer ищет работу в Одессе. О себе: 30 лет, высшее образование, опыт работы 1 год. Интересует полная зайнятость на позицию Front-end разработчик.">
+    <meta name="yandex-verification" content="8a7e8a091582e34f" />
+    <meta name="google-site-verification" content="NG35eJDfw0UTVH-j-XNZYazRYDLWgZ0Koue1sC5dvg8" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Front-End Developer</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--подключение фавикона-->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!--подключение знаков фейсбук, твиттер, линкелин в подвале сайта-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--подключение анимаций-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--подключение сброса настроек браузера-->
+    <link rel="stylesheet" href="css/apply_normalize.css">
+    <!--подключение препроцессора Less-->
+    <link href="css/style.less" type="text/css" rel="stylesheet/less"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--подключение одного общего файла JS-->
+    <script data-main="js/app.js" src="js/require.js"></script>
+
+</head>
+<body>
+<div class="container ">
+    <!--begin top-block-->
+    <header>
+        <div class="header__top-block top-block">
+            <nav class="navbar navbar-default">
+                <div class="container" id="bg-header">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="navbar-header">
+                                <div class="circle">
+                                    <a href="https://drive.google.com/open?id=0Bz-qa_7pqFnIMFBzd0I5ZHRaajg" target="_blank" data-placement="top" title="Click me!" style="text-decoration: none;">
+                                        <img class="logo_min" src="image/logo2.png" alt="SL"></a>
+                                </div>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-top" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="menu-top">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="trans">
+                                        <a href="index.html">ОБО МНЕ</a>
+                                    </li>
+                                    <li class="trans">
+                                        <a href="projects.html" style="color:white;">ПРОЕКТЫ</a>
+                                    </li>
+                                    <li class="trans">
+                                        <a href="contacts.html">КОНТАКТЫ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--END top-block-->
+
+
+
+        <div class="row project__bg">
+            <div class="col-md-4 col-md-offset-5">
+                <h1 class="wow pulse current_project" data-wow-delay="0.3s" >Проекты</h1>
+            </div>
+        </div>
+    <div id="myCarousel" class="carousel slide project__carousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators project__carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner  project__carousel-inner">
+            <div class="item active">
+                <a href="http://fansfootball.zzz.com.ua" target="_blank"> <img src="image/football-site.jpg" alt="Hobby site" style="width:100%;"> </a>
+                <p> Веб-сайт хобби - это мой первый проект.
+                    Он был написан с использованием HTML5, CSS3
+                    и анимация JavaScript.
+                    Сайт был создан в течений двух недель.
+                    Сайт имеет 5 страниц, на которых есть видео,
+                    аудио контент, изображения, 3D-анимацию.
+                    Также применяется карта Google, на которой вы можете
+                    видеть адреса футбольных стадионов и прочесть информацию о них.
+                </p>
+            </div>
+
+            <div class="item progect__item">
+                <a href="http://levko.zzz.com.ua/portfolio/index.html" target="_blank"><img src="image/portfolio-site.jpg" alt="HTML5 site" style="width:100%;"></a>
+                <p>Веб-сайт портфолио был разработан с использованием HTML5 по макету PSD. Все размеры элементов были выполнены в соответствии с макетом. На сайте также используется слайдер. Когда вы наведите указатель мыши на маленькие изображения, они увеличиваются в размере. Анимация JavaScript применяется к ряду элементов на сайте. Пример размещения PSD на сайте.
+                </p>
+            </div>
+
+            <div class="item progect__item">
+                <a href="http://levko.zzz.com.ua/bootstrap/index.html" target="_blank"><img src="image/bootstrap-site.jpg" alt="Bootstrap site" style="width:100%;"></a>
+                <p>Этот сайт написан с использованием Bootstrap. Это одностраничный сайт, и имеет преимущество разрешения экрана как на десктопных, так и на мобильных устройствах. Также на этом сайте используется слайдер и меню навигации. При просмотре сайта на смартфоне вы можете позвонить по номеру телефона, указанному на веб-сайте.
+                </p>
+            </div>
+
+            <div class="item progect__item">
+                <a href="http://levko.zzz.com.ua/landing/" target="_blank"><img src="image/lending-site.jpg" alt="Landing site" style="width:100%;"></a>
+                <p>Этот сайт написан с использованием Bootstrap. Это одностраничный сайт адаптивный для использования как на десктопных, так и на мобильных устройствах. Навигационное меню в форме круглых чисел с номерами, эта функция меню реализована с использованием jQuery. Шаблон сайта готов для использования клиентами.
+                </p>
+            </div>
+
+            <div class="item">
+                <a href="http://levko.zzz.com.ua/metric/" target="_blank"><img src="image/metric.jpg" alt="Landing site" style="width:100%;"></a>
+                <p> Этот сайт написан с использованием Bootstrap.
+                    Это одностраничный сайт, и он имеет преимущество полного разрешения экрана
+                    На настольных и мобильных устройствах. Применяется методология БЭМ  для лучшей читаемости кода,
+                    а так же для для экономий времени используется препроцессор CSS это Less. Данный сайт был написан за один день.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--begin footer-block-->
+    <div class="row  footer-block  footer-block__phone" >
+        <div class="col-md-2  col-md-offset-1  ">
+            <p>Контакт тел.: <a href="tel:+380978544985" class="phone" style="text-decoration: none;" > +380978544985</a> </p>
+        </div>
+        <div class="col-md-4 col-md-offset-2 ">
+            <ul class="list-inline footer-icon">
+                <li><a href="https://www.facebook.com/profile.php?id=100009540591794" target="_blank"><i class="fa fa-facebook-square " aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/slevko88" target="_blank"><i class="fa fa-twitter-square " aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/viacheslav-levko-7b7472138/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/117326628441943918786" target="_blank"><i class="fa fa-google-plus icon" aria-hidden="true"></i></a></li>
+                <li><a href="contacts.html" ><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 footer-block__tel footer-block__email">
+            <p>E-mail: <a href="mailto:slevko88@gmail.com" target="_blank" class="phone"  style="text-decoration: none;">slevko88@gmail.com</a></p>
+        </div>
+
+        <div class="col-md-8 col-md-offset-3 footer-block__text" >
+            <p>Copyright © 2017 Портфолио. Все права защищены. Дизайн и разработка Вячеслав Левко.</p>
+        </div>
+    </div>
+    <div class="fab"> <span class="fab-action-button"><i class="fab-action-button__icon"></i></span>
+        <ul class="fab-buttons">
+            <li class="fab-buttons__item">
+                <a href="https://www.facebook.com/profile.php?id=100009540591794" target="_blank" class="fab-buttons__link" aria-hidden="true" data-tooltip="Facebook"> <i class="icon-material icon-material_fb"></i> </a>
+            </li>
+            <li class="fab-buttons__item">
+                <a href="https://twitter.com/slevko88" target="_blank" class="fab-buttons__link" data-tooltip="Twitter"> <i class="icon-material icon-material_tw"></i> </a>
+            </li>
+            <li class="fab-buttons__item">
+                <a href="https://www.linkedin.com/in/viacheslav-levko-7b7472138/" target="_blank" class="fab-buttons__link" data-tooltip="Linkedin"> <i class="icon-material icon-material_li"></i> </a>
+            </li>
+            <li class="fab-buttons__item">
+                <a href="https://plus.google.com/u/0/117326628441943918786" target="_blank" class="fab-buttons__link" data-tooltip="Google+"> <i class="icon-material icon-material_gp"></i> </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--END footer-block-->
+</div>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--<script src="js/bootstrap.min.js"></script>-->
+</body>
+</html>
